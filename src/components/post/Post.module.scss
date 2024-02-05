@@ -1,0 +1,22 @@
+.post {
+  background-color: var(--post-background-color);
+  border: 0.0625rem solid var(--post-border-color);
+  border-radius: var(--post-border-radius);
+  padding: var(--post-padding);
+  margin-bottom: var(--post-margin-bottom);
+  transition: var(--post-transition);
+
+  &:hover {
+    box-shadow: var(--post-hover-shadow);
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+    color: var(--main-text-color);
+  }
+}

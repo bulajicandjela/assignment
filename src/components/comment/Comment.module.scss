@@ -1,0 +1,18 @@
+.comment {
+  background-color: var(--comment-background-color);
+  border: 0.0625rem solid var(--comment-border-color);
+  border-radius: var(--comment-border-radius);
+  padding: var(--comment-padding);
+  margin-bottom: var(--comment-margin-bottom);
+
+  h4 {
+    font-size: var(--comment-h4-font-size);
+    margin-bottom: var(--comment-h4-margin-bottom);
+    color: var(--main-text-color);
+  }
+
+  p {
+    font-size: var(--comment-p-font-size);
+    color: var(--comment-p-color);
+  }
+}

@@ -1,0 +1,38 @@
+.posts-container {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 1.25rem;
+}
+
+.post-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15.625rem, 1fr));
+  gap: 1rem;
+}
+
+.post-link {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+
+.post {
+  background-color: var(--post-background-color);
+  border: 0.0625rem solid var(--post-border-color);
+  border-radius: var(--post-border-radius);
+  padding: var(--post-padding);
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+
+  h3 {
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    font-size: 0.875rem;
+    color: #666;
+  }
+}
